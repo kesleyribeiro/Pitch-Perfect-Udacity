@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA239E94202DB48700202247 /* ReproduzirAudioVC+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA239E93202DB48700202247 /* ReproduzirAudioVC+Audio.swift */; };
+		FA93D3D22028CDFF00ECF7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93D3D12028CDFF00ECF7AF /* AppDelegate.swift */; };
+		FA93D3D42028CDFF00ECF7AF /* GravarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93D3D32028CDFF00ECF7AF /* GravarVC.swift */; };
+		FA93D3D72028CDFF00ECF7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA93D3D52028CDFF00ECF7AF /* Main.storyboard */; };
+		FA93D3D92028CDFF00ECF7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA93D3D82028CDFF00ECF7AF /* Assets.xcassets */; };
+		FA93D3DC2028CDFF00ECF7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA93D3DA2028CDFF00ECF7AF /* LaunchScreen.storyboard */; };
+		FA93D3E42028D9C500ECF7AF /* ReproduzirAudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93D3E32028D9C500ECF7AF /* ReproduzirAudioVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA239E93202DB48700202247 /* ReproduzirAudioVC+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReproduzirAudioVC+Audio.swift"; sourceTree = "<group>"; };
+		FA93D3CE2028CDFF00ECF7AF /* Pitch_Perfect_Udacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pitch_Perfect_Udacity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA93D3D12028CDFF00ECF7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA93D3D32028CDFF00ECF7AF /* GravarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravarVC.swift; sourceTree = "<group>"; };
+		FA93D3D62028CDFF00ECF7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA93D3D82028CDFF00ECF7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA93D3DB2028CDFF00ECF7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA93D3DD2028CDFF00ECF7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA93D3E32028D9C500ECF7AF /* ReproduzirAudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproduzirAudioVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA93D3CB2028CDFF00ECF7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA93D3C52028CDFF00ECF7AF = {
+			isa = PBXGroup;
+			children = (
+				FA93D3D02028CDFF00ECF7AF /* Pitch_Perfect_Udacity */,
+				FA93D3CF2028CDFF00ECF7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA93D3CF2028CDFF00ECF7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA93D3CE2028CDFF00ECF7AF /* Pitch_Perfect_Udacity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA93D3D02028CDFF00ECF7AF /* Pitch_Perfect_Udacity */ = {
+			isa = PBXGroup;
+			children = (
+				FA93D3D12028CDFF00ECF7AF /* AppDelegate.swift */,
+				FA93D3D32028CDFF00ECF7AF /* GravarVC.swift */,
+				FA93D3E32028D9C500ECF7AF /* ReproduzirAudioVC.swift */,
+				FA239E93202DB48700202247 /* ReproduzirAudioVC+Audio.swift */,
+				FA93D3D52028CDFF00ECF7AF /* Main.storyboard */,
+				FA93D3D82028CDFF00ECF7AF /* Assets.xcassets */,
+				FA93D3DA2028CDFF00ECF7AF /* LaunchScreen.storyboard */,
+				FA93D3DD2028CDFF00ECF7AF /* Info.plist */,
+			);
+			path = Pitch_Perfect_Udacity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA93D3CD2028CDFF00ECF7AF /* Pitch_Perfect_Udacity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA93D3E02028CDFF00ECF7AF /* Build configuration list for PBXNativeTarget "Pitch_Perfect_Udacity" */;
+			buildPhases = (
+				FA93D3CA2028CDFF00ECF7AF /* Sources */,
+				FA93D3CB2028CDFF00ECF7AF /* Frameworks */,
+				FA93D3CC2028CDFF00ECF7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pitch_Perfect_Udacity;
+			productName = Pitch_Perfect_Udacity;
+			productReference = FA93D3CE2028CDFF00ECF7AF /* Pitch_Perfect_Udacity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA93D3C62028CDFF00ECF7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kesley Ribeiro";
+				TargetAttributes = {
+					FA93D3CD2028CDFF00ECF7AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA93D3C92028CDFF00ECF7AF /* Build configuration list for PBXProject "Pitch_Perfect_Udacity" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA93D3C52028CDFF00ECF7AF;
+			productRefGroup = FA93D3CF2028CDFF00ECF7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA93D3CD2028CDFF00ECF7AF /* Pitch_Perfect_Udacity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA93D3CC2028CDFF00ECF7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA93D3DC2028CDFF00ECF7AF /* LaunchScreen.storyboard in Resources */,
+				FA93D3D92028CDFF00ECF7AF /* Assets.xcassets in Resources */,
+				FA93D3D72028CDFF00ECF7AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA93D3CA2028CDFF00ECF7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA93D3D42028CDFF00ECF7AF /* GravarVC.swift in Sources */,
+				FA93D3E42028D9C500ECF7AF /* ReproduzirAudioVC.swift in Sources */,
+				FA239E94202DB48700202247 /* ReproduzirAudioVC+Audio.swift in Sources */,
+				FA93D3D22028CDFF00ECF7AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA93D3D52028CDFF00ECF7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA93D3D62028CDFF00ECF7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA93D3DA2028CDFF00ECF7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA93D3DB2028CDFF00ECF7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA93D3DE2028CDFF00ECF7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA93D3DF2028CDFF00ECF7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA93D3E12028CDFF00ECF7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HM3P6TPYBB;
+				INFOPLIST_FILE = Pitch_Perfect_Udacity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.studioonze.Pitch-Perfect-Udacity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA93D3E22028CDFF00ECF7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HM3P6TPYBB;
+				INFOPLIST_FILE = Pitch_Perfect_Udacity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.studioonze.Pitch-Perfect-Udacity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA93D3C92028CDFF00ECF7AF /* Build configuration list for PBXProject "Pitch_Perfect_Udacity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA93D3DE2028CDFF00ECF7AF /* Debug */,
+				FA93D3DF2028CDFF00ECF7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA93D3E02028CDFF00ECF7AF /* Build configuration list for PBXNativeTarget "Pitch_Perfect_Udacity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA93D3E12028CDFF00ECF7AF /* Debug */,
+				FA93D3E22028CDFF00ECF7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA93D3C62028CDFF00ECF7AF /* Project object */;
+}
