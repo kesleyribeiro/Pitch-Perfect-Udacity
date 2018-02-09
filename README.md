@@ -1,19 +1,27 @@
-![Viewer](https://raw.githubusercontent.com/bakkenbaeck/Viewer/master/GitHub/viewer-logo-2.jpg)
-
 <div align = "center">
   <img src="https://img.shields.io/badge/platforms-iOS-lightgrey.svg" />  
 </div>
 
 ## Screen Shots
 
-Recorder audio
+Início
 <p align="center">
-  <img src="https://github.com/bakkenbaeck/Viewer/raw/master/GitHub/focus.gif"/>
+  <img src="https://github.com/kesleyribeiro/Pitch-Perfect-Udacity/blob/master/Screen%20Shots/1_Inicio.png"/>
 </p>
 
-Play audio
+Gravando
 <p align="center">
-  <img src="https://github.com/bakkenbaeck/Viewer/raw/master/GitHub/focus.gif"/>
+  <img src="https://github.com/kesleyribeiro/Pitch-Perfect-Udacity/blob/master/Screen%20Shots/2_Gravando.png"/>
+</p>
+
+Opções de reprodução do aúdio
+<p align="center">
+  <img src="https://github.com/kesleyribeiro/Pitch-Perfect-Udacity/blob/master/Screen%20Shots/3_Opcoes.png"/>
+</p>
+
+Reproduzindo aúdio
+<p align="center">
+  <img src="https://github.com/kesleyribeiro/Pitch-Perfect-Udacity/blob/master/Screen%20Shots/4_Reproduzir.png"/>
 </p>
 
 ## Author
