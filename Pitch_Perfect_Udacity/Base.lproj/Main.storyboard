@@ -97,16 +97,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="4OU-WN-MLs" secondAttribute="trailing" id="COY-0G-Qzd"/>
-                                            <constraint firstItem="CyQ-dQ-a5k" firstAttribute="leading" secondItem="6nL-zs-hkM" secondAttribute="leading" id="HQw-MC-3Uu"/>
-                                            <constraint firstItem="4OU-WN-MLs" firstAttribute="leading" secondItem="CyQ-dQ-a5k" secondAttribute="trailing" id="OEP-dh-xGO"/>
-                                            <constraint firstItem="4OU-WN-MLs" firstAttribute="leading" secondItem="CyQ-dQ-a5k" secondAttribute="trailing" id="PY9-Fu-jEo"/>
-                                            <constraint firstAttribute="bottom" secondItem="4OU-WN-MLs" secondAttribute="bottom" id="TEc-TL-4Le"/>
-                                            <constraint firstAttribute="bottom" secondItem="CyQ-dQ-a5k" secondAttribute="bottom" id="X1I-Up-UOX"/>
-                                            <constraint firstItem="4OU-WN-MLs" firstAttribute="top" secondItem="6nL-zs-hkM" secondAttribute="top" id="ZaZ-JQ-tEA"/>
-                                            <constraint firstItem="CyQ-dQ-a5k" firstAttribute="top" secondItem="6nL-zs-hkM" secondAttribute="top" id="hNv-9j-cDT"/>
-                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fhF-Rk-VSu">
                                         <rect key="frame" x="0.0" y="144.5" width="320" height="145"/>
@@ -126,15 +116,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="gQS-7p-6Dx" secondAttribute="bottom" id="BXO-be-Hbd"/>
-                                            <constraint firstItem="gQS-7p-6Dx" firstAttribute="top" secondItem="fhF-Rk-VSu" secondAttribute="top" id="GNV-vX-Oxj"/>
-                                            <constraint firstItem="gQS-7p-6Dx" firstAttribute="leading" secondItem="fhF-Rk-VSu" secondAttribute="leading" id="KIt-J9-S7p"/>
-                                            <constraint firstItem="4Kx-TU-OOo" firstAttribute="top" secondItem="fhF-Rk-VSu" secondAttribute="top" id="MpA-p2-cE1"/>
-                                            <constraint firstAttribute="trailing" secondItem="4Kx-TU-OOo" secondAttribute="trailing" id="WIZ-A0-YIR"/>
-                                            <constraint firstItem="4Kx-TU-OOo" firstAttribute="leading" secondItem="gQS-7p-6Dx" secondAttribute="trailing" id="h0y-jS-Dau"/>
-                                            <constraint firstAttribute="bottom" secondItem="4Kx-TU-OOo" secondAttribute="bottom" id="ws9-Ao-FDa"/>
-                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4pd-rR-BL0">
                                         <rect key="frame" x="0.0" y="289.5" width="320" height="144.5"/>
@@ -154,20 +135,11 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Kug-DG-gSB" firstAttribute="bottom" secondItem="cr7-39-1ST" secondAttribute="bottom" id="2T1-tJ-sC7"/>
-                                            <constraint firstItem="ud1-bG-Ky5" firstAttribute="leading" secondItem="cr7-39-1ST" secondAttribute="leading" id="Ldm-sg-06d"/>
-                                            <constraint firstItem="Kug-DG-gSB" firstAttribute="trailing" secondItem="cr7-39-1ST" secondAttribute="trailing" id="SAX-cC-fWQ"/>
-                                            <constraint firstItem="ud1-bG-Ky5" firstAttribute="bottom" secondItem="cr7-39-1ST" secondAttribute="bottom" id="TnA-iY-LQR"/>
-                                            <constraint firstItem="Kug-DG-gSB" firstAttribute="top" secondItem="cr7-39-1ST" secondAttribute="top" id="XTv-Su-0Y8"/>
-                                            <constraint firstItem="ud1-bG-Ky5" firstAttribute="top" secondItem="cr7-39-1ST" secondAttribute="top" id="fMY-Bz-XqY"/>
-                                            <constraint firstItem="Kug-DG-gSB" firstAttribute="leading" secondItem="ud1-bG-Ky5" secondAttribute="trailing" id="r8v-hn-NB2"/>
-                                        </constraints>
                                         <viewLayoutGuide key="safeArea" id="cr7-39-1ST"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McK-yZ-f8D" userLabel="Parar Btn">
+                            <button opaque="NO" contentMode="scaleAspectFit" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McK-yZ-f8D" userLabel="Parar Btn">
                                 <rect key="frame" x="129.5" y="503" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="O2N-U1-B5W"/>
