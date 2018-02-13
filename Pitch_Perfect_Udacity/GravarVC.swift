@@ -28,8 +28,8 @@ class GravarVC: UIViewController, AVAudioRecorderDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Iniciar com botão "PARAR" desabilitado
-        pararBtn.isEnabled = false
+        // Chamar a função passando false como parâmetro
+        configurarBotoes(false)
     }
     
     // MARK: Actions
@@ -37,17 +37,11 @@ class GravarVC: UIViewController, AVAudioRecorderDelegate {
     // Função do botão Gravar aúdio
     @IBAction func acaoGravar(_ sender: Any) {
 
-        // Desabilitar o botão "GRAVAR"
-        gravarBtn.isEnabled = false
-        
-        // Alterar texto
-        gravandoLbl.text = "Gravando aúdio..."
+        // Chamar a função passando true como parâmetro
+        configurarBotoes(true)
 
-        // Habilita o botão "PARAR"
-        pararBtn.isEnabled = true
-        
         let pacoteDiretorio = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
-        let nomeArquivo = "gravarAudio.wav"
+        let nomeArquivo = "arquivoAudioGravado.wav"
         let pathArray = [pacoteDiretorio, nomeArquivo]
         let caminhoDoArquivo = URL(string: pathArray.joined(separator: "/"))
 
@@ -64,14 +58,8 @@ class GravarVC: UIViewController, AVAudioRecorderDelegate {
     // Função do botão parar de gravar aúdio
     @IBAction func acaoParar(_ sender: Any) {
         
-        // Habilitar o botão "GRAVAR"
-        gravarBtn.isEnabled = true
-
-        // Redefinir texto original
-        gravandoLbl.text = "Toque para gravar"
-        
-        // Desabilitar o botão "PARAR"
-        pararBtn.isEnabled = false
+        // Chamar a função passando false como parâmetro
+        configurarBotoes(false)
         
         // Parar gravação
         gravarAudio.stop()
@@ -79,6 +67,18 @@ class GravarVC: UIViewController, AVAudioRecorderDelegate {
         // Desativar AVAudioSession
         let sessaoAudio = AVAudioSession.sharedInstance()
         try! sessaoAudio.setActive(false)
+    }
+    
+    func configurarBotoes(_ estaGravando: Bool) {
+
+        // Botão de gravar ficará habilitado somente se não estiver gravando
+        gravarBtn.isEnabled = !estaGravando
+
+        // Botão de parar ficará habilitado somente se estiver gravando
+        pararBtn.isEnabled = estaGravando
+
+        // Define o label de acordo com estar ou não estar gravando
+        gravandoLbl.text = estaGravando ? "Gravando áudio..." : "Toque para gravar"
     }
 
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
@@ -90,7 +90,9 @@ class GravarVC: UIViewController, AVAudioRecorderDelegate {
         }
         // Erro
         else {
-            print("Gravação não foi completada!")
+            let alerta = UIAlertController(title: "Ocorreu um erro", message: "Infelizmente a gravação não foi completada. Tente novamente!", preferredStyle: .alert)
+            alerta.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alerta, animated: true, completion: nil)
         }
     }
 

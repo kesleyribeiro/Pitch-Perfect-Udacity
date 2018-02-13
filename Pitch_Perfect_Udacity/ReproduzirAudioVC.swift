@@ -36,11 +36,22 @@ class ReproduzirAudioVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
+        
+        ajustarImagemBotoes()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         configureUI(.notPlaying)
+    }
+
+    func ajustarImagemBotoes() {
+        caracolBtn.imageView?.contentMode = .scaleAspectFit
+        coelhoBtn.imageView?.contentMode = .scaleAspectFit
+        esquiloBtn.imageView?.contentMode = .scaleAspectFit
+        vaderBtn.imageView?.contentMode = .scaleAspectFit
+        passarinhoBtn.imageView?.contentMode = .scaleAspectFit
+        reverbBtn.imageView?.contentMode = .scaleAspectFit
     }
 
     // MARK: Actions
